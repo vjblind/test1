@@ -12,7 +12,8 @@
   <script src="https://identity-js.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-  <script src="<%= htmlWebpackPlugin.files.chunks.cms.entry %>"></script>
+
+
   <button id="btn-login">Moralis Login</button>
   <button id="btn-logout">Logout</button>
 
@@ -24,6 +25,8 @@
     Moralis.start({ serverUrl, appId });
 
   </script>
+  <!--script src="<%= htmlWebpackPlugin.files.chunks.cms.entry %>"></script-->
+ 
 </body>
 </html>
  
